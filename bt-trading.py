@@ -98,6 +98,7 @@ class DataManager:
                 all_symbols,
                 start=start_extended,
                 end=self.config.end_date,
+                auto_adjust=False,
                 progress=False
             )
 
